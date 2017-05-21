@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/ivItem"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            fresco:placeholderImage="@drawable/ic_close_black"
+            fresco:actualImageScaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvItem"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:text="Shoprite"
+            android:fontFamily="serif"
+           />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+          />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvItemPrice"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:text="200"
+            android:fontFamily="serif"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+</LinearLayout>

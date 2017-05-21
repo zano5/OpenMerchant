@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_insert_items"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tut.ac.za.openmerchant.InsertItemsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/layout">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:inputType="text"
+        android:hint="Item Name"
+        android:id="@+id/etItemName"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Description"
+            android:id="@+id/etDescription"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price:"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="00.00"
+        android:id="@+id/etPrice"/>
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:onClick="onUpload"
+        android:id="@+id/btnUpload"
+        android:layout_below="@+id/ivItem"
+        android:theme="@style/ThemeOverlay.MyDarkButton"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="onNext"
+        android:id="@+id/btnNext"
+        android:layout_below="@+id/btnUpload"
+        android:theme="@style/ThemeOverlay.MyDarkButton"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/ivItem"
+        android:layout_below="@+id/layout"
+        android:layout_centerHorizontal="true"
+        android:onClick="onImage"
+        android:src="@drawable/upload"/>
+    </RelativeLayout>
+</ScrollView>

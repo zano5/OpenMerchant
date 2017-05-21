@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tut.ac.za.openmerchant.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+
+  <ViewFlipper
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/flipper">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <com.facebook.drawee.view.SimpleDraweeView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/ivAdvert1"
+          fresco:placeholderImage="@drawable/ic_close_black"
+          fresco:actualImageScaleType="fitXY"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <com.facebook.drawee.view.SimpleDraweeView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/ivAdvert2"
+          fresco:placeholderImage="@drawable/ic_close_black"
+          fresco:actualImageScaleType="fitXY"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <com.facebook.drawee.view.SimpleDraweeView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/ivAdvert3"
+          fresco:placeholderImage="@drawable/ic_close_black"
+          fresco:actualImageScaleType="fitXY"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <com.facebook.drawee.view.SimpleDraweeView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/ivAdvert4"
+          fresco:placeholderImage="@drawable/ic_close_black"
+          fresco:actualImageScaleType="fitXY"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <com.facebook.drawee.view.SimpleDraweeView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/ivAdvert5"
+          fresco:placeholderImage="@drawable/ic_close_black"
+          fresco:actualImageScaleType="fitXY"/>
+
+
+    </RelativeLayout>
+
+
+
+  </ViewFlipper>
+</RelativeLayout>

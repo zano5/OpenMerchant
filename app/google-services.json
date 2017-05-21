@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "748432168037",
+    "firebase_url": "https://openmerchant-d81c1.firebaseio.com",
+    "project_id": "openmerchant-d81c1",
+    "storage_bucket": "openmerchant-d81c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748432168037:android:0274f5261dafb43c",
+        "android_client_info": {
+          "package_name": "tut.ac.za.openmerchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748432168037-fjd2b8s17aa01dt34if4matfsm73bmpm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tut.ac.za.openmerchant",
+            "certificate_hash": "D7BAAE866056133A73D24B65DAD0B9878763626A"
+          }
+        },
+        {
+          "client_id": "748432168037-94rlkgl822nk578mq9ko9eueggri7714.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPTF-SiC5vBvOIBqpA2tM8afP1FCaQXhI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748432168037-94rlkgl822nk578mq9ko9eueggri7714.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
